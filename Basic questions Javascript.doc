@@ -1,0 +1,171 @@
+Basic questions Javascript
+Здесь собраны основные вопросы по JS. Overall - 147 questions
+
+Intro
+
+1.	How long have you been studying programming? And how have you stydied it? Why this way? (NEW)
+2.	What is your general experience in front-end? Tell me about your last projects? (NEW)
+3.	How do you improve your tech skills? (NEW)
+4.	What is latest that you've learnt about JS? (NEW)
+5.	What is latest version of JS now? (NEW)
+
+JS basics - to warm up
+
+1.	What is EcmaScript (ES)?
+2.	What data types do you know in JavaScript?
+3.	What is the difference between primitives and Object?
+4.	What types of Objects do you know?
+5.	How does typeof works?
+6.	How to define variable in JavaScript?
+7.	What is difference between not defined and underfined in JS?
+8.	What is the difference between undefined and null? Is variable is not defined the same as variable is undefined?
+9.	What is NaN? How we can get this value?
+10.	What is the difference between var and let?
+11.	What is the difference between var and let in terms of performance? Why? (NEW)
+12.	What is the difference between const and let?
+13.	What is NULL is JS? How it differs from underfined?
+14.	What is strict compare ===. What is the difference with not strict compare ==?
+15.	What is reference data type?
+16.	let a = { key: value}; let b = a;? Will a will be changed if b changed? (NEW)
+17.	What is type–converting in JavaScript?
+18.	How to convert value to number? to string
+19.	How to convert value to boolean? Which values are converted to false?
+20.	What is function in JavaScript. What are functions used for?
+21.	What is anonymus function?
+22.	What is function expresion and function declaration? Which is better and why?
+23.	What is arrow function? What is the difference with function declaration? Tell me about 5 main differences
+24.	What is argumants object in function?
+25.	What is rest operator? (NEW)
+26.	How to round the number? How to round the number with some precision
+27.	What is 'strict mode;'?
+28.	What is the difference between `, ' and "?
+29.	How to find substring inside another string? Tell me 3 ways to do that
+
+Arrays & Objects & Data structures
+
+1.	What is array in JavaScript? What data can be stored in array?
+2.	How to create array / object? What is lineral notation?
+3.	How to access values in the array?
+4.	What array methods do you know? Which one (method) mutates array, which one is not?
+5.	What is the difference between .map and .forEach
+6.	How array reduce method works?
+7.	What value will accumulator in reduce have on 1st iteration if it is not set by default? (NEW)
+8.	How to join two arrays? Tell me all options you know
+9.	Tell me about some and every methods in Array? (NEW)
+10.	Tell me about slice and splice methods? (NEW)
+11.	What is an object? How to access properties of an object? Tell me all options you know
+12.	How to add property to the object? Tell me all options you know
+13.	How to copy object? Tell me all options you know
+14.	What is spread operator? How it works for objects? How it works for arrays? What is it used for?
+15.	What is difference beetween rest and spread operators? (NEW)
+16.	How can we make deep copy of the objects? Object can has any keys-values (NEW)
+17.	How can we remove property from an object?
+18.	What is usage of JSON.stringify and JSON.parce methods?
+19.	What Set data structure used for? Give me at least two examples of using it? (NEW)
+20.	What Map data structure used for? Give me at least two examples of using it? (NEW)
+21.	What is difference beetween Set and WeakSet? Map and WeakMap? (NEW)
+
+Lexical enviroment, hoisting, closure
+
+1.	What is LexicalEnvironment? What is stored in LexicalEnvironment? Tell me about its structure
+2.	What is Environment Record? (NEW)
+3.	What is closure? Give at least 2 axamples of using closure
+4.	What is hoisting? How it works for var, let and const? How it works for functions?/li>
+5.	What is scope?
+6.	What is difference between scope and lexical enviroment? Or there is no difference? (NEW)
+7.	How does scope works for variables defined with var? Give at least 2 code examples
+8.	Which function will be stored in lexical enviroment first - function test() {} or const test1 = () => {};? And why? (NEW)
+9.	When Lexical Environment will be removed from memory? (NEW)
+
+Context
+
+1.	What is context? What does it reference for?
+2.	What methods do you know to control or set the context?
+3.	How to set context without call, bind, apply methods? (NEW)
+4.	What is a global object? (NEW)
+5.	What does it mean to 'lose context'? Give 3 examples how context can be lost. How to avoid it?
+6.	What is the difference between .bind, .apply and .call Which one is better to use?
+7.	What arguments does .bind can take?
+8.	How do arrow functions work with context?
+
+Classes & Prototypes
+
+1.	What is class? (NEW)
+2.	What is prototype inheritance?
+3.	Can you explain thesis 'Everything is an Object in JavaScript'?
+4.	What is constructor function? How it works?
+5.	What is prototype in JavaScript?
+6.	What are best practices to define methods for JavaScript classes?
+7.	Each object in JavaScript has .toString() method. How is it achived?
+8.	Which methods of Object class do you know? Tell me what they do
+9.	What is OOP? Is it used in JS? Give me at least 2 examples (NEW)
+10.	What is polymorphism? Give me at least 2 examples (NEW)
+11.	What is encapsulation? Give me at least 2 examples (NEW)
+12.	What is functional programming? What is OOP programming? WHat type does JS use? (NEW) (ADVANCED)
+
+DOM & Events
+
+1.	What is DOM?
+2.	What is BOM?
+3.	How to find DOM elements on the page? Count all methods you know
+4.	What is browser event?
+5.	How you can navigate through DOM objects on the page?
+6.	How to define event handler? What methods do you know?
+7.	How to define multiple handlers for same event on the element?
+8.	What is the difference between someElement.onclick = function () { ... } and someElement.addEventListener('click', ....)?
+9.	What is the difference between event.stopPropagation() and event.preventDefault()?
+10.	How does removeEventListener work?
+11.	What is event bubling? How we can use it on practice?
+12.	What is event delegation? How it works?
+
+Promises, Fetch, Async code, Error hanling
+
+1.	What is Promise? How is it been used in front-end applications?
+2.	What is promisification? Give me at least 2 examples
+3.	Which statuses promise can have? Is it possible to change it? If yes, how? (NEW)
+4.	What static method of Promise do you know?
+5.	How to run multiple promises simulteniosly and wait till all of them will be resolved? (NEW)
+6.	When should I use Promise.all()? Give me some examples when you've used it in projects? (NEW)
+7.	What is asynchronous code? Why is it important for web application? Give examples of async and sync code in JavaScript
+8.	What is async, await? How to handle errors when using async / await
+9.	What is JavaScript error? What kinds of errors do you know? How to handle errors?
+10.	What is throw keyword in JS?
+
+General JS
+
+1.	What is callback? How does it work?
+2.	What is EventLoop? How does it work?
+3.	What are ES Modules. How does it work? What is the difference between named and default export?
+4.	What is the difference between localStorage and sessionStorage? When is it better one and another?
+5.	What cookies? (NEW)
+6.	What difference between cookies/localStorage/sessionStorage? (NEW)
+7.	What is chaining? How does it work? (NEW)
+
+WEB related questions
+
+1.	What is HTTP? What the HTTP request consists of?
+2.	What is request body?
+3.	What is header in HTTP request? Give me some example you've used? (NEW)
+4.	How does fetch method work?
+5.	What is the status of HTTP request? What statuses do you know?
+6.	What is REST API? Why it is good?
+7.	Which methods of the REST API do you know?
+8.	What is difference beetween PUT & PATCH methods?
+9.	What is OPTIONS method in REST API? Why browser can make HTTP request with this method automatically when page loaded? (NEW) (ADVANCED)
+10.	What is CORS? (NEW) (ADVANCED)
+11.	Tell me about APIs you've used on your projects?
+12.	What is JSON? (NEW)
+13.	How to make comments is JSON? (NEW)
+14.	What is AJAX? (NEW)
+15.	When I put my email in password in Gmail and press login, what is the flow to process my request? (NEW) (ADVANCED)
+16.	When I open any web site, let's say some sport new website, what is happening? Describe me the flow step by step (NEW)
+17.	What is Websockets? What is it used for? (NEW) (ADVANCED)
+18.	What is axios lib used for? Have you used it? (NEW) (ADVANCED)
+
+Programming principles
+
+1.	How to debug JavaScript code in browser?
+2.	Describe your last case where you've used degug in the project? (NEW)
+3.	What is a good code? And bad? Give me example that you've had on your projects? (NEW)
+4.	How to avoid code duplications in your app?
+5.	What is SOLID principles? Which of them have you used? (NEW)
